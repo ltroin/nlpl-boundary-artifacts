@@ -1,0 +1,119 @@
+{
+  "method": "CodeQL data+control flow, consensus taxonomy barriers (expanded)",
+  "barrier_files": 32,
+  "barrier_vars": 38,
+  "global": {
+    "files": 295,
+    "full": 7974,
+    "cut": 70,
+    "reduction": 0.010976219667211908,
+    "files_with_reduction": 14
+  },
+  "nonprop_subset": {
+    "files": 32,
+    "full": 502,
+    "cut": 70,
+    "files_with_reduction": 14,
+    "mean": 0.101
+  },
+  "top_files": [
+    {
+      "file": "1712n__dn-institute__tools_claude_retriever_client.py",
+      "full": 39,
+      "prop": 38,
+      "cut": 1,
+      "reduction": 0.02564102564102564
+    },
+    {
+      "file": "EveryOneIsGross__scratchTHOUGHTS__ripYT.py",
+      "full": 26,
+      "prop": 9,
+      "cut": 17,
+      "reduction": 0.6538461538461539
+    },
+    {
+      "file": "gabrielcassimiro17__async-langchain__sequential_chain.py",
+      "full": 37,
+      "prop": 34,
+      "cut": 3,
+      "reduction": 0.08108108108108109
+    },
+    {
+      "file": "ghif__langchain-tutorial__11-chat-memory.py",
+      "full": 23,
+      "prop": 11,
+      "cut": 12,
+      "reduction": 0.5217391304347826
+    },
+    {
+      "file": "hyungkwonko__chart-llm__exp_gold_exp_paraphrase.py",
+      "full": 51,
+      "prop": 46,
+      "cut": 5,
+      "reduction": 0.09803921568627451
+    },
+    {
+      "file": "jxnl__instructor__examples_classification_simple_prediction.py",
+      "full": 7,
+      "prop": 5,
+      "cut": 2,
+      "reduction": 0.2857142857142857
+    },
+    {
+      "file": "langroid__langroid__tests_main_test_llm.py",
+      "full": 13,
+      "prop": 9,
+      "cut": 4,
+      "reduction": 0.3076923076923077
+    },
+    {
+      "file": "michaelwilliamtang__referral-augment__src_rar_retrievers_query2doc_dense_retriever.py",
+      "full": 7,
+      "prop": 3,
+      "cut": 4,
+      "reduction": 0.5714285714285714
+    },
+    {
+      "file": "mominalix__bulk-email-generator-using-ChatGPT__bulk_sales_email_generator.py",
+      "full": 33,
+      "prop": 32,
+      "cut": 1,
+      "reduction": 0.030303030303030304
+    },
+    {
+      "file": "morecry__CharacterChat__src_dial_query_data.py",
+      "full": 168,
+      "prop": 165,
+      "cut": 3,
+      "reduction": 0.017857142857142856
+    },
+    {
+      "file": "ngaut__jarvis__experiments_react.py",
+      "full": 28,
+      "prop": 25,
+      "cut": 3,
+      "reduction": 0.10714285714285714
+    },
+    {
+      "file": "sydowma__codeGPT__analysis_repository.py",
+      "full": 30,
+      "prop": 17,
+      "cut": 13,
+      "reduction": 0.43333333333333335
+    },
+    {
+      "file": "weaviate__weaviate-podcast-search__generative-feedback-loops_auto-chapters.py",
+      "full": 24,
+      "prop": 23,
+      "cut": 1,
+      "reduction": 0.041666666666666664
+    },
+    {
+      "file": "yoheinakajima__babyagi__classic_BabyElfAGI_skills_code_reader.py",
+      "full": 16,
+      "prop": 15,
+      "cut": 1,
+      "reduction": 0.0625
+    }
+  ]
+}

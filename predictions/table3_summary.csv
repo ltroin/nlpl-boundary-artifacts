@@ -1,0 +1,10 @@
+method,model,precision,recall,f1
+Propagate All,---,0.312,1.000,0.475
+LLM Code,GPT-5.5,0.694,0.391,0.500
+LLM Code,Opus-4.8,0.681,0.445,0.538
+LLM Code,DeepSeek,0.581,0.682,0.628
+LLM Code,Qwen-3.7+,0.696,0.539,0.608
+PRISM,GPT-5.5,0.725,0.936,0.817
+PRISM,Opus-4.8,0.728,0.900,0.805
+PRISM,DeepSeek,0.697,0.900,0.786
+PRISM,Qwen-3.7+,0.735,0.882,0.802

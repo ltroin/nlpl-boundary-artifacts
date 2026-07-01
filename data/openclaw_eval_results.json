@@ -1,0 +1,8 @@
+{
+  "description": "Cross-language validation on 12 pairs from 6 real OpenClaw CVEs (6 YES before-fix / 6 NO after-fix)",
+  "methods": {
+    "Propagate All": {"Prec": 0.50, "Rec": 1.00, "F1": 0.667, "FP": 6, "FN": 0},
+    "LLM Code": {"Prec": 0.80, "Rec": 0.667, "F1": 0.727, "FP": 1, "FN": 2},
+    "PRISM": {"Prec": 1.00, "Rec": 1.00, "F1": 1.00, "FP": 0, "FN": 0}
+  }
+}

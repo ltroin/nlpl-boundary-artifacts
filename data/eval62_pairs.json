@@ -1,0 +1,4864 @@
+[
+ {
+  "gt_index": "e353_0",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "setup_sys_prompt_existing_code(dbs)",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "Code Snippet",
+   "Non-JSON Template"
+  ],
+  "sink_line": 204,
+  "sink_code": "p = subprocess.Popen(  # attempt to run the entrypoint",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_1",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "setup_sys_prompt_existing_code(dbs)",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "Code Snippet",
+   "Non-JSON Template"
+  ],
+  "sink_line": 471,
+  "sink_code": "p = subprocess.Popen(",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_2",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "format_file_to_input(file_name, file_str)",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 204,
+  "sink_code": "p = subprocess.Popen(  # attempt to run the entrypoint",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_3",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "format_file_to_input(file_name, file_str)",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 471,
+  "sink_code": "p = subprocess.Popen(",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_4",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "dbs.input[\"prompt\"]",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 204,
+  "sink_code": "p = subprocess.Popen(  # attempt to run the entrypoint",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_5",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "dbs.input[\"prompt\"]",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 471,
+  "sink_code": "p = subprocess.Popen(",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_6",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "dbs.logs[clarify.__name__]",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "CLI Commands",
+   "Non-JSON Template"
+  ],
+  "sink_line": 204,
+  "sink_code": "p = subprocess.Popen(  # attempt to run the entrypoint",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_7",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "dbs.logs[clarify.__name__]",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "CLI Commands",
+   "Non-JSON Template"
+  ],
+  "sink_line": 471,
+  "sink_code": "p = subprocess.Popen(",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_8",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "setup_sys_prompt(dbs)",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 204,
+  "sink_code": "p = subprocess.Popen(  # attempt to run the entrypoint",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_9",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "setup_sys_prompt(dbs)",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 471,
+  "sink_code": "p = subprocess.Popen(",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_10",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "dbs.preprompts[\"generate\"].replace(\"FILE_FORMAT\", dbs.preprompts[\"file_format\"])",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 204,
+  "sink_code": "p = subprocess.Popen(  # attempt to run the entrypoint",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_11",
+  "file_key": "ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py",
+  "placeholder_name": "dbs.preprompts[\"generate\"].replace(\"FILE_FORMAT\", dbs.preprompts[\"file_format\"])",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 471,
+  "sink_code": "p = subprocess.Popen(",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_12",
+  "file_key": "Aurametrix/Alg/ML~oipenai.py",
+  "placeholder_name": "generated_sql",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo"
+  ],
+  "sink_line": 15,
+  "sink_code": "resp = db_chain.run('what is my last po value for testaccoun",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_13",
+  "file_key": "Aurametrix/Alg/ML~oipenai.py",
+  "placeholder_name": "database.run(generated_sql)",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 15,
+  "sink_code": "resp = db_chain.run('what is my last po value for testaccoun",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_14",
+  "file_key": "BrettlyCD/text-to-sql/src~app~sql_functions.py",
+  "placeholder_name": "sql_query",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Code Snippet"
+  ],
+  "sink_line": 124,
+  "sink_code": "query_result = database.run_no_throw(sql_query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_15",
+  "file_key": "BrettlyCD/text-to-sql/src~app~sql_functions.py",
+  "placeholder_name": "error_message",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Code Snippet"
+  ],
+  "sink_line": 124,
+  "sink_code": "query_result = database.run_no_throw(sql_query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_16",
+  "file_key": "BrettlyCD/text-to-sql/src~app~sql_functions.py",
+  "placeholder_name": "sql_dialect",
+  "consensus_labels": [
+   "Fragment Copy"
+  ],
+  "sink_line": 124,
+  "sink_code": "query_result = database.run_no_throw(sql_query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_17",
+  "file_key": "BrettlyCD/text-to-sql/src~app~sql_functions.py",
+  "placeholder_name": "table_info",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Code Snippet"
+  ],
+  "sink_line": 124,
+  "sink_code": "query_result = database.run_no_throw(sql_query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_18",
+  "file_key": "BrettlyCD/text-to-sql/src~app~sql_functions.py",
+  "placeholder_name": "question",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 124,
+  "sink_code": "query_result = database.run_no_throw(sql_query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_19",
+  "file_key": "Constantin-Hentgen/Ctrl_Alt_Discuss/src~content.py",
+  "placeholder_name": "system_prompt",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 60,
+  "sink_code": "response = requests.get(endpoint)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_20",
+  "file_key": "Constantin-Hentgen/Ctrl_Alt_Discuss/src~content.py",
+  "placeholder_name": "system_prompt",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 103,
+  "sink_code": "response = requests.post(endpoint, headers=headers, json=dat",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_21",
+  "file_key": "Constantin-Hentgen/Ctrl_Alt_Discuss/src~content.py",
+  "placeholder_name": "user_prompt",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 60,
+  "sink_code": "response = requests.get(endpoint)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_22",
+  "file_key": "Constantin-Hentgen/Ctrl_Alt_Discuss/src~content.py",
+  "placeholder_name": "user_prompt",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 103,
+  "sink_code": "response = requests.post(endpoint, headers=headers, json=dat",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_23",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "AGENT_PREFIX",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 307,
+  "sink_code": "results = self.db.engine.execute(distinct_query).fetchall()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_24",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "AGENT_PREFIX",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 300,
+  "sink_code": "search_results = self.db.engine.execute(search_query).fetcha",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_25",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "PLAN_WITH_FEWSHOT_EXAMPLES_AND_INSTRUCTIONS",
+  "consensus_labels": [
+   "Template Slotting",
+   "Code Snippet"
+  ],
+  "sink_line": 307,
+  "sink_code": "results = self.db.engine.execute(distinct_query).fetchall()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_26",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "PLAN_WITH_FEWSHOT_EXAMPLES_AND_INSTRUCTIONS",
+  "consensus_labels": [
+   "Template Slotting",
+   "Code Snippet"
+  ],
+  "sink_line": 300,
+  "sink_code": "search_results = self.db.engine.execute(search_query).fetcha",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_27",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "FORMAT_INSTRUCTIONS",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Non-JSON Template"
+  ],
+  "sink_line": 307,
+  "sink_code": "results = self.db.engine.execute(distinct_query).fetchall()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_28",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "FORMAT_INSTRUCTIONS",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Non-JSON Template"
+  ],
+  "sink_line": 300,
+  "sink_code": "search_results = self.db.engine.execute(search_query).fetcha",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_29",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "SUFFIX_WITH_FEW_SHOT_SAMPLES",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "Code Snippet",
+   "Non-JSON Template"
+  ],
+  "sink_line": 307,
+  "sink_code": "results = self.db.engine.execute(distinct_query).fetchall()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_30",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "SUFFIX_WITH_FEW_SHOT_SAMPLES",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "Code Snippet",
+   "Non-JSON Template"
+  ],
+  "sink_line": 300,
+  "sink_code": "search_results = self.db.engine.execute(search_query).fetcha",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_31",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "toolkit.dialect",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Code Snippet"
+  ],
+  "sink_line": 307,
+  "sink_code": "results = self.db.engine.execute(distinct_query).fetchall()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_32",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "toolkit.dialect",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Code Snippet"
+  ],
+  "sink_line": 300,
+  "sink_code": "search_results = self.db.engine.execute(search_query).fetcha",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_33",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "max_examples",
+  "consensus_labels": [
+   "Template Slotting"
+  ],
+  "sink_line": 307,
+  "sink_code": "results = self.db.engine.execute(distinct_query).fetchall()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_34",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "max_examples",
+  "consensus_labels": [
+   "Template Slotting"
+  ],
+  "sink_line": 300,
+  "sink_code": "search_results = self.db.engine.execute(search_query).fetcha",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_35",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "user_question.question",
+  "consensus_labels": [
+   "Translation",
+   "Code Snippet"
+  ],
+  "sink_line": 307,
+  "sink_code": "results = self.db.engine.execute(distinct_query).fetchall()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_36",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "user_question.question",
+  "consensus_labels": [
+   "Translation",
+   "Code Snippet"
+  ],
+  "sink_line": 300,
+  "sink_code": "search_results = self.db.engine.execute(search_query).fetcha",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_37",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "agent_scratchpad",
+  "consensus_labels": [
+   "Ignored",
+   "Missing Context"
+  ],
+  "sink_line": 307,
+  "sink_code": "results = self.db.engine.execute(distinct_query).fetchall()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_38",
+  "file_key": "Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py",
+  "placeholder_name": "agent_scratchpad",
+  "consensus_labels": [
+   "Ignored",
+   "Missing Context"
+  ],
+  "sink_line": 300,
+  "sink_code": "search_results = self.db.engine.execute(search_query).fetcha",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_39",
+  "file_key": "Dicklesworthstone/llama2_aided_tesseract/tesseract_with_llama2_corrections.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Persona Rewriting",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 108,
+  "sink_code": "c.execute('''CREATE TABLE IF NOT EXISTS embeddings",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_40",
+  "file_key": "Dicklesworthstone/llama2_aided_tesseract/tesseract_with_llama2_corrections.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Persona Rewriting",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 111,
+  "sink_code": "c.execute(\"SELECT * FROM embeddings WHERE file_hash=?\", (fil",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_41",
+  "file_key": "Dicklesworthstone/llama2_aided_tesseract/tesseract_with_llama2_corrections.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Persona Rewriting",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 133,
+  "sink_code": "c.execute(\"INSERT OR REPLACE INTO embeddings VALUES (?, ?, ?",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_42",
+  "file_key": "HKUDS/LLMRec/LLM_augmentation_construct_prompt~gpt_user_profiling.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Category Label",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 170,
+  "sink_code": "response = requests.post(url=url, headers=headers,json=param",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_43",
+  "file_key": "Hydepwns/beachPatrol/src~twitter.py",
+  "placeholder_name": "existing_answer",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 82,
+  "sink_code": "os.system(cmd)",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_44",
+  "file_key": "Hydepwns/beachPatrol/src~twitter.py",
+  "placeholder_name": "existing_answer",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 91,
+  "sink_code": "result = subprocess.check_output(cmd, shell=True)",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_45",
+  "file_key": "Hydepwns/beachPatrol/src~twitter.py",
+  "placeholder_name": "summary_additional_chunk",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 82,
+  "sink_code": "os.system(cmd)",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_46",
+  "file_key": "Hydepwns/beachPatrol/src~twitter.py",
+  "placeholder_name": "summary_additional_chunk",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 91,
+  "sink_code": "result = subprocess.check_output(cmd, shell=True)",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_47",
+  "file_key": "Hydepwns/beachPatrol/src~twitter.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 82,
+  "sink_code": "os.system(cmd)",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_48",
+  "file_key": "Hydepwns/beachPatrol/src~twitter.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 91,
+  "sink_code": "result = subprocess.check_output(cmd, shell=True)",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_49",
+  "file_key": "Hydepwns/beachPatrol/src~twitter.py",
+  "placeholder_name": "transcript",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "General Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 82,
+  "sink_code": "os.system(cmd)",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_50",
+  "file_key": "Hydepwns/beachPatrol/src~twitter.py",
+  "placeholder_name": "transcript",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "General Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 91,
+  "sink_code": "result = subprocess.check_output(cmd, shell=True)",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_51",
+  "file_key": "IncomeStreamSurfer/autoblogger/shopify.py",
+  "placeholder_name": "meta_title",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 52,
+  "sink_code": "response = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_52",
+  "file_key": "IncomeStreamSurfer/print_on_demand_printify_automation/upscalecreateimages.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 96,
+  "sink_code": "response = requests.post(url, headers=headers, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_53",
+  "file_key": "IncomeStreamSurfer/print_on_demand_printify_automation/upscalecreateimages.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 104,
+  "sink_code": "response = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_54",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "instructions",
+  "consensus_labels": [
+   "Ignored",
+   "Mostly Common Knowledge"
+  ],
+  "sink_line": 59,
+  "sink_code": "response = requests.post(\"https://api-1e3042.stack.tryreleva",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_55",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "instructions",
+  "consensus_labels": [
+   "Ignored",
+   "Mostly Common Knowledge"
+  ],
+  "sink_line": 111,
+  "sink_code": "response = requests.post(\"https://chrome.browserless.io/cont",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_56",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "message",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 59,
+  "sink_code": "response = requests.post(\"https://api-1e3042.stack.tryreleva",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_57",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "message",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 111,
+  "sink_code": "response = requests.post(\"https://chrome.browserless.io/cont",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_58",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "history",
+  "consensus_labels": [
+   "Missing Context",
+   "Keyword Echo"
+  ],
+  "sink_line": 59,
+  "sink_code": "response = requests.post(\"https://api-1e3042.stack.tryreleva",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_59",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "history",
+  "consensus_labels": [
+   "Missing Context",
+   "Keyword Echo"
+  ],
+  "sink_line": 111,
+  "sink_code": "response = requests.post(\"https://chrome.browserless.io/cont",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_60",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "search_results",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 59,
+  "sink_code": "response = requests.post(\"https://api-1e3042.stack.tryreleva",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_61",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "search_results",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 111,
+  "sink_code": "response = requests.post(\"https://chrome.browserless.io/cont",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_62",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion"
+  ],
+  "sink_line": 59,
+  "sink_code": "response = requests.post(\"https://api-1e3042.stack.tryreleva",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_63",
+  "file_key": "JayZeeDesign/Discord-AI-Chatbot/bot_utilities~ai_utils.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion"
+  ],
+  "sink_line": 111,
+  "sink_code": "response = requests.post(\"https://chrome.browserless.io/cont",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_64",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "lates_reply",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 146,
+  "sink_code": "response = requests.post(url, headers=headers, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_65",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "lates_reply",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 216,
+  "sink_code": "response = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_66",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "lates_reply",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 348,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_67",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "lates_reply",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 394,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_68",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "lates_reply",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 437,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_69",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 146,
+  "sink_code": "response = requests.post(url, headers=headers, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_70",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 216,
+  "sink_code": "response = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_71",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 348,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_72",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 394,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_73",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 437,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_74",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "content",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 146,
+  "sink_code": "response = requests.post(url, headers=headers, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_75",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "content",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 216,
+  "sink_code": "response = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_76",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "content",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 348,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_77",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "content",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 394,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_78",
+  "file_key": "JayZeeDesign/inbox-manager-agent/custom_tools.py",
+  "placeholder_name": "content",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 437,
+  "sink_code": "response = requests.post(url, data=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_79",
+  "file_key": "Nuggt-dev/Nuggt/nuggt-wizcoder~python_repl.py",
+  "placeholder_name": "code",
+  "consensus_labels": [
+   "Content Expansion",
+   "Code Snippet",
+   "Non-JSON Template"
+  ],
+  "sink_line": 21,
+  "sink_code": "exec(code, self.local_vars)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_80",
+  "file_key": "Nuggt-dev/Nuggt/nuggt-wizcoder~python_repl.py",
+  "placeholder_name": "error",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet",
+   "Non-JSON Template"
+  ],
+  "sink_line": 21,
+  "sink_code": "exec(code, self.local_vars)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_81",
+  "file_key": "Nuggt-dev/Nuggt/nuggt-wizcoder~python_repl.py",
+  "placeholder_name": "messages[0][\"content\"]",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "Code Snippet",
+   "Non-JSON Template"
+  ],
+  "sink_line": 21,
+  "sink_code": "exec(code, self.local_vars)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_82",
+  "file_key": "TimMerino1710/five-dollar-model/dataset_processing~map_dataset_creation.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 147,
+  "sink_code": "alt_label_list = eval(answer[answer.find(\"[\"):answer.find(']",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_83",
+  "file_key": "TimMerino1710/five-dollar-model/dataset_processing~map_dataset_creation.py",
+  "placeholder_name": "f\"{labels}\"",
+  "consensus_labels": [
+   "Paraphrase Rewrite",
+   "Non-JSON Template"
+  ],
+  "sink_line": 147,
+  "sink_code": "alt_label_list = eval(answer[answer.find(\"[\"):answer.find(']",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_84",
+  "file_key": "Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 277,
+  "sink_code": "data = yaml.unsafe_load(txt)",
+  "vuln_type": "unsafe-deserialization",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_85",
+  "file_key": "Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py",
+  "placeholder_name": "previous_tasks",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 277,
+  "sink_code": "data = yaml.unsafe_load(txt)",
+  "vuln_type": "unsafe-deserialization",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_86",
+  "file_key": "Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py",
+  "placeholder_name": "\"\\n---\\n\".join(context) if context else None",
+  "consensus_labels": [
+   "Category Label",
+   "Non-JSON Template"
+  ],
+  "sink_line": 277,
+  "sink_code": "data = yaml.unsafe_load(txt)",
+  "vuln_type": "unsafe-deserialization",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_87",
+  "file_key": "Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py",
+  "placeholder_name": "task",
+  "consensus_labels": [
+   "Fragment Copy"
+  ],
+  "sink_line": 277,
+  "sink_code": "data = yaml.unsafe_load(txt)",
+  "vuln_type": "unsafe-deserialization",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_88",
+  "file_key": "Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py",
+  "placeholder_name": "format",
+  "consensus_labels": [
+   "Non-JSON Template"
+  ],
+  "sink_line": 277,
+  "sink_code": "data = yaml.unsafe_load(txt)",
+  "vuln_type": "unsafe-deserialization",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_89",
+  "file_key": "YiVal/YiVal/demo~guardrails~run_leetcode.py",
+  "placeholder_name": "leetcode_problem",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet",
+   "JSON-Only Template"
+  ],
+  "sink_line": 125,
+  "sink_code": "exec(res)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_90",
+  "file_key": "YiVal/YiVal/demo~guardrails~run_leetcode.py",
+  "placeholder_name": "gr.complete_json_suffix",
+  "consensus_labels": [
+   "Template Slotting",
+   "Code Snippet",
+   "JSON-Only Template"
+  ],
+  "sink_line": 125,
+  "sink_code": "exec(res)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_91",
+  "file_key": "YiVal/YiVal/src~yival~common~auto_cofig_utils.py",
+  "placeholder_name": "response",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "JSON-Only Template"
+  ],
+  "sink_line": 163,
+  "sink_code": "args_dict = eval(args_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_92",
+  "file_key": "YiVal/YiVal/src~yival~common~auto_cofig_utils.py",
+  "placeholder_name": "task",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 163,
+  "sink_code": "args_dict = eval(args_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_93",
+  "file_key": "YiVal/YiVal/src~yival~common~auto_cofig_utils.py",
+  "placeholder_name": "parameter",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo"
+  ],
+  "sink_line": 163,
+  "sink_code": "args_dict = eval(args_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_94",
+  "file_key": "ZoneSixGames/RoboTalk/robark.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 103,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_95",
+  "file_key": "ZoneSixGames/RoboTalk/robotalk.py",
+  "placeholder_name": "st.session_state.title",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 85,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_96",
+  "file_key": "ZoneSixGames/RoboTalk/robotalk.py",
+  "placeholder_name": "st.session_state.research",
+  "consensus_labels": [
+   "Paraphrase Rewrite",
+   "Persona Rewriting",
+   "Content Expansion"
+  ],
+  "sink_line": 85,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_97",
+  "file_key": "ZoneSixGames/RoboTalk/robotalk.py",
+  "placeholder_name": "p1_name",
+  "consensus_labels": [
+   "Template Slotting"
+  ],
+  "sink_line": 85,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_98",
+  "file_key": "ZoneSixGames/RoboTalk/robotalk.py",
+  "placeholder_name": "p1",
+  "consensus_labels": [
+   "Persona Rewriting",
+   "Content Expansion"
+  ],
+  "sink_line": 85,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_99",
+  "file_key": "adrida/Temporal_RAG/huggingface_space_app~temporal_augmented_retrival.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Missing Capabilities",
+   "Content Expansion"
+  ],
+  "sink_line": 112,
+  "sink_code": "query = eval(query)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_100",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_101",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_102",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "candidate_info['name']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_103",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "candidate_info['name']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_104",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "job_description",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Paraphrase Rewrite",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_105",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "job_description",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Paraphrase Rewrite",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_106",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "candidate_info['current_position']",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_107",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "candidate_info['current_position']",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_108",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "candidate_info['about']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_109",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "candidate_info['about']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_110",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "candidate_info['location']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_111",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "candidate_info['location']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_112",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "current_experience['description']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_113",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "current_experience['description']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_114",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "current_company",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_115",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "current_company",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_116",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "previous_experience['description']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_117",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "previous_experience['description']",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_118",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "previous_company",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 38,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_119",
+  "file_key": "agusticonesagago/custom_linkedin_messaging/api~custom_messages.py",
+  "placeholder_name": "previous_company",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 83,
+  "sink_code": "subprocess.run(",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_120",
+  "file_key": "aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py",
+  "placeholder_name": "db.get_table_info()",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 47,
+  "sink_code": "response=lambda x: db.run(x[\"query\"]),",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_121",
+  "file_key": "aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py",
+  "placeholder_name": "db.get_table_info()",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 17,
+  "sink_code": "return db.run(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_122",
+  "file_key": "aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py",
+  "placeholder_name": "sql_response",
+  "consensus_labels": [
+   "Missing Context",
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 47,
+  "sink_code": "response=lambda x: db.run(x[\"query\"]),",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_123",
+  "file_key": "aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py",
+  "placeholder_name": "sql_response",
+  "consensus_labels": [
+   "Missing Context",
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 17,
+  "sink_code": "return db.run(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_124",
+  "file_key": "aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py",
+  "placeholder_name": "db.run(x[\"query\"])",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 47,
+  "sink_code": "response=lambda x: db.run(x[\"query\"]),",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_125",
+  "file_key": "aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py",
+  "placeholder_name": "db.run(x[\"query\"])",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 17,
+  "sink_code": "return db.run(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_126",
+  "file_key": "biobootloader/wolverine/wolverine~wolverine.py",
+  "placeholder_name": "SYSTEM_PROMPT",
+  "consensus_labels": [
+   "Content Expansion",
+   "Code Snippet",
+   "JSON-Only Template"
+  ],
+  "sink_line": 42,
+  "sink_code": "result = subprocess.check_output(subprocess_args, stderr=sub",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_127",
+  "file_key": "biobootloader/wolverine/wolverine~wolverine.py",
+  "placeholder_name": "file_with_lines",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "Code Snippet",
+   "JSON-Only Template"
+  ],
+  "sink_line": 42,
+  "sink_code": "result = subprocess.check_output(subprocess_args, stderr=sub",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_128",
+  "file_key": "biobootloader/wolverine/wolverine~wolverine.py",
+  "placeholder_name": "args",
+  "consensus_labels": [
+   "Code Snippet",
+   "JSON-Only Template"
+  ],
+  "sink_line": 42,
+  "sink_code": "result = subprocess.check_output(subprocess_args, stderr=sub",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_129",
+  "file_key": "biobootloader/wolverine/wolverine~wolverine.py",
+  "placeholder_name": "error_message",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet",
+   "JSON-Only Template"
+  ],
+  "sink_line": 42,
+  "sink_code": "result = subprocess.check_output(subprocess_args, stderr=sub",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_130",
+  "file_key": "cannlytics/cannabis-data-science/season-3~113-phenohunting~phenohunting.py",
+  "placeholder_name": "front_page_text",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "JSON-Only Template"
+  ],
+  "sink_line": 68,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_131",
+  "file_key": "cauliyang/ChatResearch/src~chat_research~areader.py",
+  "placeholder_name": "key_words",
+  "consensus_labels": [
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 593,
+  "sink_code": "rep = requests.post(url, json=payload).json()",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_132",
+  "file_key": "cauliyang/ChatResearch/src~chat_research~areader.py",
+  "placeholder_name": "clip_text",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Translation",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 593,
+  "sink_code": "rep = requests.post(url, json=payload).json()",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_133",
+  "file_key": "cauliyang/ChatResearch/src~chat_research~areader.py",
+  "placeholder_name": "self.language",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 593,
+  "sink_code": "rep = requests.post(url, json=payload).json()",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_134",
+  "file_key": "cauliyang/ChatResearch/src~chat_research~commands~chat_async_arxiv.py",
+  "placeholder_name": "self.key_word",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 171,
+  "sink_code": "response = requests.get(url)  # send a GET request to the ur",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_135",
+  "file_key": "cauliyang/ChatResearch/src~chat_research~commands~chat_async_arxiv.py",
+  "placeholder_name": "clip_text",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 171,
+  "sink_code": "response = requests.get(url)  # send a GET request to the ur",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_136",
+  "file_key": "cauliyang/ChatResearch/src~chat_research~commands~chat_async_arxiv.py",
+  "placeholder_name": "self.language",
+  "consensus_labels": [
+   "Template Slotting"
+  ],
+  "sink_line": 171,
+  "sink_code": "response = requests.get(url)  # send a GET request to the ur",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_137",
+  "file_key": "deepset-ai/biqa-llm/sql_generation.py",
+  "placeholder_name": "raw_desc_prompt",
+  "consensus_labels": [
+   "Code Snippet"
+  ],
+  "sink_line": 106,
+  "sink_code": "results, _ = executor.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_138",
+  "file_key": "deepset-ai/biqa-llm/sql_generation.py",
+  "placeholder_name": "schema",
+  "consensus_labels": [
+   "Missing Context",
+   "Fragment Copy",
+   "Template Slotting",
+   "Code Snippet"
+  ],
+  "sink_line": 106,
+  "sink_code": "results, _ = executor.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_139",
+  "file_key": "deepset-ai/biqa-llm/sql_generation.py",
+  "placeholder_name": "few_shot_prompt",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Code Snippet"
+  ],
+  "sink_line": 106,
+  "sink_code": "results, _ = executor.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_140",
+  "file_key": "deepset-ai/biqa-llm/sql_generation.py",
+  "placeholder_name": "question",
+  "consensus_labels": [
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 106,
+  "sink_code": "results, _ = executor.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_141",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 310,
+  "sink_code": "rows: List[dict] = session.execute(query_stmt).all()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_142",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 325,
+  "sink_code": "rows: List[dict] = session.execute(query_stmt).all()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_143",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 417,
+  "sink_code": "rows = session.execute(\"SELECT table_name FROM system_schema",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_144",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 421,
+  "sink_code": "table_schema = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_145",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 445,
+  "sink_code": "table_entries = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_146",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 453,
+  "sink_code": "table_schema = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_147",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 485,
+  "sink_code": "rows = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_148",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 492,
+  "sink_code": "table_schema = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_149",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 519,
+  "sink_code": "rows = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_150",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 559,
+  "sink_code": "rows = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_151",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 567,
+  "sink_code": "table_schema = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_152",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 686,
+  "sink_code": "rows = session.execute(query, [phone_number])",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_153",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 798,
+  "sink_code": "table_rows = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_154",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 967,
+  "sink_code": "results = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_155",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "relevant_column_descriptions",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 1056,
+  "sink_code": "new_results = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_156",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 310,
+  "sink_code": "rows: List[dict] = session.execute(query_stmt).all()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_157",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 325,
+  "sink_code": "rows: List[dict] = session.execute(query_stmt).all()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_158",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 417,
+  "sink_code": "rows = session.execute(\"SELECT table_name FROM system_schema",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_159",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 421,
+  "sink_code": "table_schema = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_160",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 445,
+  "sink_code": "table_entries = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_161",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 453,
+  "sink_code": "table_schema = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_162",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 485,
+  "sink_code": "rows = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_163",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 492,
+  "sink_code": "table_schema = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_164",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 519,
+  "sink_code": "rows = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_165",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 559,
+  "sink_code": "rows = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_166",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 567,
+  "sink_code": "table_schema = session.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_167",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 686,
+  "sink_code": "rows = session.execute(query, [phone_number])",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_168",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 798,
+  "sink_code": "table_rows = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_169",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 967,
+  "sink_code": "results = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_170",
+  "file_key": "devinbost/moonshot/DataAccess.py",
+  "placeholder_name": "table_rows",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 1056,
+  "sink_code": "new_results = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_171",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "message",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 36,
+  "sink_code": "rows = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_172",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "message",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 63,
+  "sink_code": "session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_173",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "message",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 104,
+  "sink_code": "session.execute(batch)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_174",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "message",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 122,
+  "sink_code": "rows = list(session.execute(prepared))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_175",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Missing Context"
+  ],
+  "sink_line": 36,
+  "sink_code": "rows = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_176",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Missing Context"
+  ],
+  "sink_line": 63,
+  "sink_code": "session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_177",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Missing Context"
+  ],
+  "sink_line": 104,
+  "sink_code": "session.execute(batch)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_178",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Missing Context"
+  ],
+  "sink_line": 122,
+  "sink_code": "rows = list(session.execute(prepared))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_179",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "result",
+  "consensus_labels": [
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 36,
+  "sink_code": "rows = session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_180",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "result",
+  "consensus_labels": [
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 63,
+  "sink_code": "session.execute(query)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_181",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "result",
+  "consensus_labels": [
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 104,
+  "sink_code": "session.execute(batch)",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_182",
+  "file_key": "elebumm/YouTubeAIExtension/endpoint~utils~database.py",
+  "placeholder_name": "result",
+  "consensus_labels": [
+   "Paraphrase Rewrite"
+  ],
+  "sink_line": 122,
+  "sink_code": "rows = list(session.execute(prepared))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_183",
+  "file_key": "eliranwong/UniqueBible/util~TextCommandParser.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Policy Refusal"
+  ],
+  "sink_line": 3558,
+  "sink_code": "searchResult = biblesSqlite.searchBible(text, mode, searchEn",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_184",
+  "file_key": "format81/TI-Mindmap-GPT/timindmapgpt.py",
+  "placeholder_name": "input_text",
+  "consensus_labels": [
+   "Missing Context",
+   "Non-JSON Template"
+  ],
+  "sink_line": 12,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_185",
+  "file_key": "format81/TI-Mindmap-GPT/timindmapgpt.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Policy Refusal"
+  ],
+  "sink_line": 12,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_186",
+  "file_key": "format81/TI-Mindmap-GPT/timindmapgpt.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Binary Decision"
+  ],
+  "sink_line": 12,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_187",
+  "file_key": "gbaeke/gpt-vectors/console~search_vectors.py",
+  "placeholder_name": "your_query",
+  "consensus_labels": [
+   "Mostly Common Knowledge",
+   "Content Expansion",
+   "Code Snippet",
+   "CLI Commands"
+  ],
+  "sink_line": 62,
+  "sink_code": "r = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_188",
+  "file_key": "hambuger/Andrew/code_util~learn.py",
+  "placeholder_name": "skill_name",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 32,
+  "sink_code": "subprocess.run(['pip', 'install', module], stdout=subprocess",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_189",
+  "file_key": "ikram-shah/iris-fhir-transcribe-summarize-export/src~python~documentexport.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Paraphrase Rewrite",
+   "General Summarization",
+   "JSON-Only Template"
+  ],
+  "sink_line": 42,
+  "sink_code": "response = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_190",
+  "file_key": "ikram-shah/iris-fhir-transcribe-summarize-export/src~python~documentexport.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Paraphrase Rewrite",
+   "General Summarization",
+   "JSON-Only Template"
+  ],
+  "sink_line": 67,
+  "sink_code": "response = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_191",
+  "file_key": "ikram-shah/iris-fhir-transcribe-summarize-export/src~python~documentexport.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Paraphrase Rewrite",
+   "General Summarization",
+   "JSON-Only Template"
+  ],
+  "sink_line": 92,
+  "sink_code": "response = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_192",
+  "file_key": "kaixindelele/ChatPaper/chat_paper.py",
+  "placeholder_name": "self.key_word",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 442,
+  "sink_code": "rep = requests.post(url, json=payload).json()",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_193",
+  "file_key": "kaixindelele/ChatPaper/chat_paper.py",
+  "placeholder_name": "clip_text",
+  "consensus_labels": [
+   "Template Slotting",
+   "Paraphrase Rewrite",
+   "Translation",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 442,
+  "sink_code": "rep = requests.post(url, json=payload).json()",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_194",
+  "file_key": "kaixindelele/ChatPaper/chat_paper.py",
+  "placeholder_name": "self.language",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 442,
+  "sink_code": "rep = requests.post(url, json=payload).json()",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_195",
+  "file_key": "kaixindelele/ChatPaper/others~chat_arxiv_maomao.py",
+  "placeholder_name": "clip_text",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Persona Rewriting",
+   "Translation",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 357,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_196",
+  "file_key": "kaixindelele/ChatPaper/others~chat_arxiv_maomao.py",
+  "placeholder_name": "clip_text",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Persona Rewriting",
+   "Translation",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 422,
+  "sink_code": "response = requests.get(url)  # send a GET request to the ur",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_197",
+  "file_key": "kaixindelele/ChatPaper/others~chat_arxiv_maomao.py",
+  "placeholder_name": "self.language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 357,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_198",
+  "file_key": "kaixindelele/ChatPaper/others~chat_arxiv_maomao.py",
+  "placeholder_name": "self.language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 422,
+  "sink_code": "response = requests.get(url)  # send a GET request to the ur",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_199",
+  "file_key": "kyegomez/EXA-1/exa~models~AudioGPT~audio-chatgpt.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Missing Capabilities",
+   "Content Expansion"
+  ],
+  "sink_line": 747,
+  "sink_code": "self.net.eval().to(self.device)",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_200",
+  "file_key": "kyegomez/EXA-1/exa~models~AudioGPT~audio-chatgpt.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Missing Capabilities",
+   "Content Expansion"
+  ],
+  "sink_line": 805,
+  "sink_code": "self.model = self.model.to(self.device).eval()",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_201",
+  "file_key": "langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py",
+  "placeholder_name": "self.engine.dialect.name",
+  "consensus_labels": [
+   "Ignored",
+   "Mostly Common Knowledge"
+  ],
+  "sink_line": 291,
+  "sink_code": "query_result = session.execute(text(query))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_202",
+  "file_key": "langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py",
+  "placeholder_name": "self.table_metadata",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 291,
+  "sink_code": "query_result = session.execute(text(query))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_203",
+  "file_key": "langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py",
+  "placeholder_name": "DEFAULT_SYS_MSG.format(dialect=self.engine.dialect.name, schema_dict=self.table_metadata)",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 291,
+  "sink_code": "query_result = session.execute(text(query))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_204",
+  "file_key": "langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py",
+  "placeholder_name": "self._format_message()",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 291,
+  "sink_code": "query_result = session.execute(text(query))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_205",
+  "file_key": "langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py",
+  "placeholder_name": "self.config.system_message.format(mode=message)",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 291,
+  "sink_code": "query_result = session.execute(text(query))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_206",
+  "file_key": "langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py",
+  "placeholder_name": "msg",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 291,
+  "sink_code": "query_result = session.execute(text(query))",
+  "vuln_type": "sql-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_207",
+  "file_key": "lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py",
+  "placeholder_name": "nodes",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Code Snippet"
+  ],
+  "sink_line": 188,
+  "sink_code": "exec(compile(code, 'generated code', 'exec'), scope)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_208",
+  "file_key": "lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py",
+  "placeholder_name": "edges",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Code Snippet"
+  ],
+  "sink_line": 188,
+  "sink_code": "exec(compile(code, 'generated code', 'exec'), scope)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_209",
+  "file_key": "lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py",
+  "placeholder_name": "examples[0][0]",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 188,
+  "sink_code": "exec(compile(code, 'generated code', 'exec'), scope)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_210",
+  "file_key": "lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py",
+  "placeholder_name": "output_schema",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Code Snippet"
+  ],
+  "sink_line": 188,
+  "sink_code": "exec(compile(code, 'generated code', 'exec'), scope)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_211",
+  "file_key": "lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py",
+  "placeholder_name": "examples[0][1].strip()",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 188,
+  "sink_code": "exec(compile(code, 'generated code', 'exec'), scope)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_212",
+  "file_key": "lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py",
+  "placeholder_name": "e[0]",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 188,
+  "sink_code": "exec(compile(code, 'generated code', 'exec'), scope)",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_213",
+  "file_key": "lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py",
+  "placeholder_name": "e[1].strip()",
+  "consensus_labels": [
+   "Template Slotting",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 188,
+  "sink_code": "exec(compile(code, 'generated code', 'exec'), scope)",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_214",
+  "file_key": "lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Code Snippet"
+  ],
+  "sink_line": 188,
+  "sink_code": "exec(compile(code, 'generated code', 'exec'), scope)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_215",
+  "file_key": "miaoshouai/miaoshouai-assistant/scripts~runtime~msai_runtime.py",
+  "placeholder_name": "main_prompt",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 411,
+  "sink_code": "r = requests.get(cover_url, timeout=30, stream=True)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_216",
+  "file_key": "miaoshouai/miaoshouai-assistant/scripts~runtime~msai_runtime.py",
+  "placeholder_name": "main_prompt",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 558,
+  "sink_code": "response = requests.get(self.prelude.api_url(model_source) +",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_217",
+  "file_key": "miaoshouai/miaoshouai-assistant/scripts~runtime~msai_runtime.py",
+  "placeholder_name": "main_prompt",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 827,
+  "sink_code": "r = requests.get(cover_url, timeout=30, stream=True)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_218",
+  "file_key": "mominalix/bulk-email-generator-using-ChatGPT/bulk_sales_email_generator.py",
+  "placeholder_name": "client_name",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 14,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_219",
+  "file_key": "mominalix/bulk-email-generator-using-ChatGPT/bulk_sales_email_generator.py",
+  "placeholder_name": "client_website",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 14,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_220",
+  "file_key": "mominalix/bulk-email-generator-using-ChatGPT/bulk_sales_email_generator.py",
+  "placeholder_name": "scraped_data",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 14,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_221",
+  "file_key": "mominalix/bulk-email-generator-using-ChatGPT/bulk_sales_email_generator.py",
+  "placeholder_name": "sender_name",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 14,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_222",
+  "file_key": "mominalix/bulk-email-generator-using-ChatGPT/bulk_sales_email_generator.py",
+  "placeholder_name": "sender_product_detail",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 14,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_223",
+  "file_key": "mominalix/bulk-email-generator-using-ChatGPT/bulk_sales_email_generator.py",
+  "placeholder_name": "sender_product_name",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting"
+  ],
+  "sink_line": 14,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_224",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "data",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Computed Number",
+   "Category Label",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 62,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_225",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "data",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Computed Number",
+   "Category Label",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 215,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_226",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "data",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Computed Number",
+   "Category Label",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 355,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_227",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "data",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Computed Number",
+   "Category Label",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 457,
+  "sink_code": "response = requests.post(api_url, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_228",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "user_instruction",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 62,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_229",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "user_instruction",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 215,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_230",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "user_instruction",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 355,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_231",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "user_instruction",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 457,
+  "sink_code": "response = requests.post(api_url, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_232",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "user_message",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Category Label",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 62,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_233",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "user_message",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Category Label",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 215,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_234",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "user_message",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Category Label",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 355,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_235",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "user_message",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Category Label",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 457,
+  "sink_code": "response = requests.post(api_url, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_236",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "analyze",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 62,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_237",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "analyze",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 215,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_238",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "analyze",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 355,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_239",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/components~models.py",
+  "placeholder_name": "analyze",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 457,
+  "sink_code": "response = requests.post(api_url, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_240",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/package~GVA~ai_models.py",
+  "placeholder_name": "analyze",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 47,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_241",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/package~GVA~ai_models.py",
+  "placeholder_name": "analyze",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 185,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_242",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/package~GVA~ai_models.py",
+  "placeholder_name": "analyze",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 325,
+  "sink_code": "response = requests.post(url, json=data, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_243",
+  "file_key": "morpheuslord/GPT_Vuln-analyzer/package~GVA~ai_models.py",
+  "placeholder_name": "analyze",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 427,
+  "sink_code": "response = requests.post(api_url, json=data)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_244",
+  "file_key": "ngaut/jarvis/experiments~react.py",
+  "placeholder_name": "thoughts",
+  "consensus_labels": [
+   "Ignored",
+   "Missing Context"
+  ],
+  "sink_line": 303,
+  "sink_code": "def exec(self, tool_input: str) -> str:",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_245",
+  "file_key": "ngaut/jarvis/experiments~react.py",
+  "placeholder_name": "thoughts",
+  "consensus_labels": [
+   "Ignored",
+   "Missing Context"
+  ],
+  "sink_line": 305,
+  "sink_code": "task_info = self.agent.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_246",
+  "file_key": "ngaut/jarvis/experiments~react.py",
+  "placeholder_name": "question",
+  "consensus_labels": [
+   "Missing Context",
+   "Content Expansion"
+  ],
+  "sink_line": 303,
+  "sink_code": "def exec(self, tool_input: str) -> str:",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_247",
+  "file_key": "ngaut/jarvis/experiments~react.py",
+  "placeholder_name": "question",
+  "consensus_labels": [
+   "Missing Context",
+   "Content Expansion"
+  ],
+  "sink_line": 305,
+  "sink_code": "task_info = self.agent.execute(",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_248",
+  "file_key": "pchunduri6/rag-demystified/complex_qa.py",
+  "placeholder_name": "question",
+  "consensus_labels": [
+   "Mostly Common Knowledge"
+  ],
+  "sink_line": 112,
+  "sink_code": "response = requests.get(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_249",
+  "file_key": "pchunduri6/rag-demystified/complex_qa.py",
+  "placeholder_name": "context",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Evidence-Constrained Summarization",
+   "Ranking"
+  ],
+  "sink_line": 112,
+  "sink_code": "response = requests.get(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_250",
+  "file_key": "runwhen-contrib/rw-cli-codecollection/.github~scripts~meta.py",
+  "placeholder_name": "script_contents",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 256,
+  "sink_code": "response_what_it_does = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_251",
+  "file_key": "runwhen-contrib/rw-cli-codecollection/.github~scripts~meta.py",
+  "placeholder_name": "script_contents",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 284,
+  "sink_code": "response_what_it_does = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_252",
+  "file_key": "runwhen-contrib/rw-cli-codecollection/.github~scripts~meta.py",
+  "placeholder_name": "script_contents",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 313,
+  "sink_code": "response_multi_line_with_comments = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_253",
+  "file_key": "runwhen-contrib/rw-cli-codecollection/.github~scripts~meta.py",
+  "placeholder_name": "script_contents",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 326,
+  "sink_code": "response_doc_links = requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_254",
+  "file_key": "saten-private/BabyCommandAGI/babyagi.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet",
+   "CLI Commands",
+   "Non-JSON Template"
+  ],
+  "sink_line": 706,
+  "sink_code": "process = subprocess.Popen(command_to_execute,",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_255",
+  "file_key": "saten-private/BabyCommandAGI/babyagi.py",
+  "placeholder_name": "all_output_for_command",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 706,
+  "sink_code": "process = subprocess.Popen(command_to_execute,",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_256",
+  "file_key": "saten-private/BabyCommandAGI/babyagi.py",
+  "placeholder_name": "ExecutedTaskParser().encode(executed_task_list)",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 706,
+  "sink_code": "process = subprocess.Popen(command_to_execute,",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_257",
+  "file_key": "saten-private/BabyCommandAGI/babyagi.py",
+  "placeholder_name": "TaskParser().encode(task_list)",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 706,
+  "sink_code": "process = subprocess.Popen(command_to_execute,",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_258",
+  "file_key": "saten-private/BabyCommandAGI/babyagi.py",
+  "placeholder_name": "current_dir",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 706,
+  "sink_code": "process = subprocess.Popen(command_to_execute,",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_259",
+  "file_key": "saten-private/BabyCommandAGI/babyagi.py",
+  "placeholder_name": "command",
+  "consensus_labels": [
+   "Category Label",
+   "Non-JSON Template"
+  ],
+  "sink_line": 706,
+  "sink_code": "process = subprocess.Popen(command_to_execute,",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_260",
+  "file_key": "saten-private/BabyCommandAGI/babyagi.py",
+  "placeholder_name": "lastlines",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 706,
+  "sink_code": "process = subprocess.Popen(command_to_execute,",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_261",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "prompt_template",
+  "consensus_labels": [
+   "Ignored",
+   "Binary Decision",
+   "JSON-Only Template"
+  ],
+  "sink_line": 425,
+  "sink_code": "pairs = eval(json_part.group(1).strip())",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_262",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "prompt_template",
+  "consensus_labels": [
+   "Ignored",
+   "Binary Decision",
+   "JSON-Only Template"
+  ],
+  "sink_line": 198,
+  "sink_code": "json_answer = eval(json_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_263",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "response",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Binary Decision",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 425,
+  "sink_code": "pairs = eval(json_part.group(1).strip())",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_264",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "response",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Binary Decision",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 198,
+  "sink_code": "json_answer = eval(json_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_265",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "func_a_src",
+  "consensus_labels": [
+   "Binary Decision",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 425,
+  "sink_code": "pairs = eval(json_part.group(1).strip())",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_266",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "func_a_src",
+  "consensus_labels": [
+   "Binary Decision",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 198,
+  "sink_code": "json_answer = eval(json_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_267",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "func_b_src",
+  "consensus_labels": [
+   "Binary Decision",
+   "JSON-Only Template"
+  ],
+  "sink_line": 425,
+  "sink_code": "pairs = eval(json_part.group(1).strip())",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_268",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "func_b_src",
+  "consensus_labels": [
+   "Binary Decision",
+   "JSON-Only Template"
+  ],
+  "sink_line": 198,
+  "sink_code": "json_answer = eval(json_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_269",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "func_b",
+  "consensus_labels": [
+   "Binary Decision",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 425,
+  "sink_code": "pairs = eval(json_part.group(1).strip())",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_270",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "func_b",
+  "consensus_labels": [
+   "Binary Decision",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 198,
+  "sink_code": "json_answer = eval(json_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_271",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "func_a",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Binary Decision",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 425,
+  "sink_code": "pairs = eval(json_part.group(1).strip())",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_272",
+  "file_key": "shreyashankar/spade-experiments/spade_v3~check_subsumes.py",
+  "placeholder_name": "func_a",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Binary Decision",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 198,
+  "sink_code": "json_answer = eval(json_string)",
+  "vuln_type": "code-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_273",
+  "file_key": "skandavivek/web-qa/web_qa2.py",
+  "placeholder_name": "x",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 149,
+  "sink_code": "soup = BeautifulSoup(requests.get(url).text, \"html.parser\")",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_274",
+  "file_key": "speakerjohnash/Garden-of-Iris/society_bot.py",
+  "placeholder_name": "text_chunk",
+  "consensus_labels": [
+   "Fragment Copy"
+  ],
+  "sink_line": 332,
+  "sink_code": "response = requests.get(link)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_275",
+  "file_key": "speakerjohnash/Garden-of-Iris/society_bot.py",
+  "placeholder_name": "claim",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 332,
+  "sink_code": "response = requests.get(link)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_276",
+  "file_key": "speakerjohnash/Garden-of-Iris/society_bot.py",
+  "placeholder_name": "m[1]",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo"
+  ],
+  "sink_line": 332,
+  "sink_code": "response = requests.get(link)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_277",
+  "file_key": "speakerjohnash/Garden-of-Iris/society_bot.py",
+  "placeholder_name": "user_session_str",
+  "consensus_labels": [
+   "Binary Decision",
+   "Content Expansion"
+  ],
+  "sink_line": 332,
+  "sink_code": "response = requests.get(link)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_278",
+  "file_key": "speakerjohnash/Garden-of-Iris/society_bot.py",
+  "placeholder_name": "text_prompt",
+  "consensus_labels": [
+   "Ignored",
+   "Missing Context"
+  ],
+  "sink_line": 332,
+  "sink_code": "response = requests.get(link)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_279",
+  "file_key": "superMDguy/anki-assistant/anki_ai.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Translation",
+   "Content Expansion"
+  ],
+  "sink_line": 162,
+  "sink_code": "subprocess.call([\"afplay\", f\"cached_audio/{key}.mp3\", \"-r\", ",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_280",
+  "file_key": "superMDguy/anki-assistant/anki_ai.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Translation",
+   "Content Expansion"
+  ],
+  "sink_line": 164,
+  "sink_code": "subprocess.call([\"say\", make_latex_speakable(text)])",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_281",
+  "file_key": "sydowma/codeGPT/analysis_repository.py",
+  "placeholder_name": "self.promotion",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 38,
+  "sink_code": "response = requests.get(api_url, headers=self.headers, strea",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_282",
+  "file_key": "sydowma/codeGPT/analysis_repository.py",
+  "placeholder_name": "filename",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 38,
+  "sink_code": "response = requests.get(api_url, headers=self.headers, strea",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_283",
+  "file_key": "sydowma/codeGPT/analysis_repository.py",
+  "placeholder_name": "chunk",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 38,
+  "sink_code": "response = requests.get(api_url, headers=self.headers, strea",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_284",
+  "file_key": "theailifestyle/trendsGPT/trendsGPT.py",
+  "placeholder_name": "headline",
+  "consensus_labels": [
+   "Category Label"
+  ],
+  "sink_line": 43,
+  "sink_code": "page = requests.get(url, headers=headers)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_285",
+  "file_key": "ttwj/open-carbon-viz/fetch_and_rate.py",
+  "placeholder_name": "HUMAN_PROMPT",
+  "consensus_labels": [
+   "Computed Number",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 111,
+  "sink_code": "urllib.request.urlretrieve(pdd_url, pdd_file)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_286",
+  "file_key": "ttwj/open-carbon-viz/fetch_and_rate.py",
+  "placeholder_name": "pdd_content",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Evidence-Constrained Summarization",
+   "Computed Number",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 111,
+  "sink_code": "urllib.request.urlretrieve(pdd_url, pdd_file)",
+  "vuln_type": "ssrf",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_287",
+  "file_key": "ttwj/open-carbon-viz/fetch_and_rate.py",
+  "placeholder_name": "AI_PROMPT",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 111,
+  "sink_code": "urllib.request.urlretrieve(pdd_url, pdd_file)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_288",
+  "file_key": "ttwj/open-carbon-viz/fetch_and_rate.py",
+  "placeholder_name": "str(response.json())",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Ranking"
+  ],
+  "sink_line": 111,
+  "sink_code": "urllib.request.urlretrieve(pdd_url, pdd_file)",
+  "vuln_type": "ssrf",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_289",
+  "file_key": "ur-whitelab/exmol/exmol~exmol.py",
+  "placeholder_name": "property_name",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 530,
+  "sink_code": "reply = requests.get(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_290",
+  "file_key": "ur-whitelab/exmol/exmol~exmol.py",
+  "placeholder_name": "text_explanations",
+  "consensus_labels": [
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 530,
+  "sink_code": "reply = requests.get(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_291",
+  "file_key": "ur-whitelab/md-agent/mdagent~tools~base_tools~util_tools~git_issues_tool.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "General Summarization",
+   "Binary Decision",
+   "Category Label",
+   "Non-JSON Template"
+  ],
+  "sink_line": 58,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_292",
+  "file_key": "ur-whitelab/md-agent/mdagent~tools~base_tools~util_tools~git_issues_tool.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "General Summarization",
+   "Binary Decision",
+   "Category Label",
+   "Non-JSON Template"
+  ],
+  "sink_line": 128,
+  "sink_code": "response_issues = requests.get(url_issues)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_293",
+  "file_key": "ur-whitelab/md-agent/mdagent~tools~base_tools~util_tools~git_issues_tool.py",
+  "placeholder_name": "query",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "General Summarization",
+   "Binary Decision",
+   "Category Label",
+   "Non-JSON Template"
+  ],
+  "sink_line": 129,
+  "sink_code": "response_comments = requests.get(url_comments)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_294",
+  "file_key": "ur-whitelab/md-agent/mdagent~tools~base_tools~util_tools~git_issues_tool.py",
+  "placeholder_name": "output",
+  "consensus_labels": [
+   "Fragment Copy",
+   "General Summarization",
+   "Binary Decision",
+   "Category Label",
+   "Non-JSON Template"
+  ],
+  "sink_line": 58,
+  "sink_code": "response = requests.get(url)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_295",
+  "file_key": "ur-whitelab/md-agent/mdagent~tools~base_tools~util_tools~git_issues_tool.py",
+  "placeholder_name": "output",
+  "consensus_labels": [
+   "Fragment Copy",
+   "General Summarization",
+   "Binary Decision",
+   "Category Label",
+   "Non-JSON Template"
+  ],
+  "sink_line": 128,
+  "sink_code": "response_issues = requests.get(url_issues)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_296",
+  "file_key": "ur-whitelab/md-agent/mdagent~tools~base_tools~util_tools~git_issues_tool.py",
+  "placeholder_name": "output",
+  "consensus_labels": [
+   "Fragment Copy",
+   "General Summarization",
+   "Binary Decision",
+   "Category Label",
+   "Non-JSON Template"
+  ],
+  "sink_line": 129,
+  "sink_code": "response_comments = requests.get(url_comments)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_297",
+  "file_key": "valory-xyz/mech/tools~prediction_request_embedding~prediction_sentence_embedding.py",
+  "placeholder_name": "event_question",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Keyword Echo",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 319,
+  "sink_code": ".execute()",
+  "vuln_type": "sql-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_298",
+  "file_key": "wellecks/lm-evaluation-harness/lm_eval~tasks~proofnet.py",
+  "placeholder_name": "doc[self.IN_KEY]",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 137,
+  "sink_code": "response = requests.get('https://raw.githubusercontent.com/z",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_299",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 186,
+  "sink_code": "mp3_content = requests.get(f\"{self.tts_url}{word_string}\")",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_300",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 317,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_301",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 321,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_302",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 325,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_303",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 333,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_304",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 343,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_305",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "language",
+  "consensus_labels": [
+   "Content Expansion"
+  ],
+  "sink_line": 354,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_306",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "words",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 186,
+  "sink_code": "mp3_content = requests.get(f\"{self.tts_url}{word_string}\")",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_307",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "words",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 317,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_308",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "words",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 321,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_309",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "words",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 325,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_310",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "words",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 333,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_311",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "words",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 343,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_312",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "words",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 354,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_313",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 186,
+  "sink_code": "mp3_content = requests.get(f\"{self.tts_url}{word_string}\")",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_314",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 317,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_315",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 321,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_316",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 325,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_317",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 333,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_318",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 343,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_319",
+  "file_key": "yihong0618/duolingo_remember/duolingo.py",
+  "placeholder_name": "text",
+  "consensus_labels": [
+   "Translation"
+  ],
+  "sink_line": 354,
+  "sink_code": "requests.post(",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_320",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_321",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_322",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "task_description",
+  "consensus_labels": [
+   "Code Snippet"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_323",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "task_description",
+  "consensus_labels": [
+   "Code Snippet"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_324",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "code_chunk",
+  "consensus_labels": [
+   "Computed Number"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_325",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "code_chunk",
+  "consensus_labels": [
+   "Computed Number"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_326",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "task_list_json",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "CLI Commands",
+   "JSON-Only Template"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_327",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "task_list_json",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Content Expansion",
+   "CLI Commands",
+   "JSON-Only Template"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_328",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "task",
+  "consensus_labels": [
+   "Content Expansion",
+   "Code Snippet",
+   "CLI Commands",
+   "JSON-Only Template"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_329",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "task",
+  "consensus_labels": [
+   "Content Expansion",
+   "Code Snippet",
+   "CLI Commands",
+   "JSON-Only Template"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_330",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "human_feedback",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_331",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "human_feedback",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Paraphrase Rewrite",
+   "Content Expansion"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_332",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "isolated_context",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_333",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "isolated_context",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_334",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "context_chunks",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_335",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "context_chunks",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_336",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "existing_code_snippet",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_337",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "existing_code_snippet",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Code Snippet"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_338",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "os_version",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_339",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "os_version",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_340",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "file_path",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "JSON-Only Template"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_341",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "file_path",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "JSON-Only Template"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_342",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "current_directory_files",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "JSON-Only Template"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_343",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "current_directory_files",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "JSON-Only Template"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_344",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "recommendation",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "JSON-Only Template"
+  ],
+  "sink_line": 109,
+  "sink_code": "process = subprocess.Popen(full_command, stdout=subprocess.P",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_345",
+  "file_key": "yoheinakajima/babyagi/babycoder~babycoder.py",
+  "placeholder_name": "recommendation",
+  "consensus_labels": [
+   "Fragment Copy",
+   "Template Slotting",
+   "JSON-Only Template"
+  ],
+  "sink_line": 129,
+  "sink_code": "result = subprocess.run(command_string, stdout=subprocess.PI",
+  "vuln_type": "command-injection",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_346",
+  "file_key": "yoheinakajima/babyagi/classic~BabyCatAGI.py",
+  "placeholder_name": "OBJECTIVE",
+  "consensus_labels": [
+   "Template Slotting",
+   "Keyword Echo",
+   "Content Expansion",
+   "JSON-Only Template"
+  ],
+  "sink_line": 148,
+  "sink_code": "response = requests.get(url, headers=headers, timeout=10)",
+  "vuln_type": "ssrf",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_347",
+  "file_key": "yoheinakajima/babyagi/classic~BabyCatAGI.py",
+  "placeholder_name": "websearch_var",
+  "consensus_labels": [
+   "Ignored",
+   "Missing Context"
+  ],
+  "sink_line": 148,
+  "sink_code": "response = requests.get(url, headers=headers, timeout=10)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_348",
+  "file_key": "yoheinakajima/babyagi/classic~BabyCatAGI.py",
+  "placeholder_name": "objective",
+  "consensus_labels": [
+   "Missing Context",
+   "Fragment Copy",
+   "Evidence-Constrained Summarization"
+  ],
+  "sink_line": 148,
+  "sink_code": "response = requests.get(url, headers=headers, timeout=10)",
+  "vuln_type": "ssrf",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_349",
+  "file_key": "yoheinakajima/babyagi/classic~BabyCatAGI.py",
+  "placeholder_name": "task",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion",
+   "Non-JSON Template"
+  ],
+  "sink_line": 148,
+  "sink_code": "response = requests.get(url, headers=headers, timeout=10)",
+  "vuln_type": "ssrf",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_350",
+  "file_key": "yoheinakajima/babyagi/classic~BabyCatAGI.py",
+  "placeholder_name": "notes",
+  "consensus_labels": [
+   "Ignored"
+  ],
+  "sink_line": 148,
+  "sink_code": "response = requests.get(url, headers=headers, timeout=10)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ },
+ {
+  "gt_index": "e353_351",
+  "file_key": "yoheinakajima/babyagi/classic~BabyCatAGI.py",
+  "placeholder_name": "chunk",
+  "consensus_labels": [
+   "Missing Context",
+   "Fragment Copy",
+   "Evidence-Constrained Summarization"
+  ],
+  "sink_line": 148,
+  "sink_code": "response = requests.get(url, headers=headers, timeout=10)",
+  "vuln_type": "ssrf",
+  "ground_truth": "yes"
+ },
+ {
+  "gt_index": "e353_352",
+  "file_key": "yoheinakajima/babyagi/classic~babyfoxagi~skills~web_search.py",
+  "placeholder_name": "prompt",
+  "consensus_labels": [
+   "Keyword Echo",
+   "Content Expansion"
+  ],
+  "sink_line": 107,
+  "sink_code": "response = requests.get(url, headers=headers, timeout=10)",
+  "vuln_type": "ssrf",
+  "ground_truth": "no"
+ }
+]

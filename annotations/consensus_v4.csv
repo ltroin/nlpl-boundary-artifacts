@@ -1,0 +1,166 @@
+file_key,placeholder_name,placeholder_labels,sink_line,sink_code,vuln_type,v1,v2,v3,consensus_v4,consensus_method
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,"dbs.input[""prompt""]","Content Expansion, Keyword Echo",204,p = subprocess.Popen(  # attempt to run the entrypoint,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,"dbs.input[""prompt""]","Content Expansion, Keyword Echo",471,p = subprocess.Popen(,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,dbs.logs[clarify.__name__],"Content Expansion, Keyword Echo",204,p = subprocess.Popen(  # attempt to run the entrypoint,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,dbs.logs[clarify.__name__],"Content Expansion, Keyword Echo",471,p = subprocess.Popen(,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,"dbs.preprompts[""generate""].replace(""FILE_FORMAT"", dbs.preprompts[""file_format""])","Code Snippet, Content Expansion, Non-JSON Template",204,p = subprocess.Popen(  # attempt to run the entrypoint,command-injection,yes,no,yes,yes,majority
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,"dbs.preprompts[""generate""].replace(""FILE_FORMAT"", dbs.preprompts[""file_format""])","Code Snippet, Content Expansion, Non-JSON Template",471,p = subprocess.Popen(,command-injection,yes,no,yes,yes,majority
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,"format_file_to_input(file_name, file_str)","Content Expansion, Template Slotting",204,p = subprocess.Popen(  # attempt to run the entrypoint,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,"format_file_to_input(file_name, file_str)","Content Expansion, Template Slotting",471,p = subprocess.Popen(,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,setup_sys_prompt(dbs),"Code Snippet, Content Expansion, Non-JSON Template",204,p = subprocess.Popen(  # attempt to run the entrypoint,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,setup_sys_prompt(dbs),"Code Snippet, Content Expansion, Non-JSON Template",471,p = subprocess.Popen(,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,setup_sys_prompt_existing_code(dbs),"Content Expansion, Non-JSON Template",204,p = subprocess.Popen(  # attempt to run the entrypoint,command-injection,yes,yes,yes,yes,unanimous
+ATheorell/AutoGPTArenaHack/autogpts~gpt-engineer~gpt_engineer~core~steps.py,setup_sys_prompt_existing_code(dbs),"Content Expansion, Non-JSON Template",471,p = subprocess.Popen(,command-injection,yes,yes,yes,yes,unanimous
+Aurametrix/Alg/ML~oipenai.py,database.run(generated_sql),Computed Number,15,resp = db_chain.run('what is my last po value for testaccount'),sql-injection,yes,no,no,no,majority
+Aurametrix/Alg/ML~oipenai.py,generated_sql,Keyword Echo,15,resp = db_chain.run('what is my last po value for testaccount'),sql-injection,yes,no,no,no,majority
+BrettlyCD/text-to-sql/src~app~sql_functions.py,error_message,"Content Expansion, Keyword Echo",124,query_result = database.run_no_throw(sql_query),sql-injection,yes,yes,yes,yes,unanimous
+BrettlyCD/text-to-sql/src~app~sql_functions.py,question,"Content Expansion, Ignored, Keyword Echo",124,query_result = database.run_no_throw(sql_query),sql-injection,yes,yes,yes,yes,unanimous
+BrettlyCD/text-to-sql/src~app~sql_functions.py,sql_dialect,Code Snippet,124,query_result = database.run_no_throw(sql_query),sql-injection,yes,no,no,no,majority
+BrettlyCD/text-to-sql/src~app~sql_functions.py,sql_query,"Code Snippet, Paraphrase Rewrite",124,query_result = database.run_no_throw(sql_query),sql-injection,yes,yes,yes,yes,unanimous
+BrettlyCD/text-to-sql/src~app~sql_functions.py,table_info,Ignored,124,query_result = database.run_no_throw(sql_query),sql-injection,yes,yes,yes,yes,unanimous
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,AGENT_PREFIX,Content Expansion,300,search_results = self.db.engine.execute(search_query).fetchall(),sql-injection,yes,no,yes,yes,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,AGENT_PREFIX,Content Expansion,307,results = self.db.engine.execute(distinct_query).fetchall(),sql-injection,yes,no,yes,yes,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,FORMAT_INSTRUCTIONS,Non-JSON Template,300,search_results = self.db.engine.execute(search_query).fetchall(),sql-injection,yes,no,no,no,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,FORMAT_INSTRUCTIONS,Non-JSON Template,307,results = self.db.engine.execute(distinct_query).fetchall(),sql-injection,yes,no,no,no,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,PLAN_WITH_FEWSHOT_EXAMPLES_AND_INSTRUCTIONS,Non-JSON Template,300,search_results = self.db.engine.execute(search_query).fetchall(),sql-injection,yes,no,yes,yes,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,PLAN_WITH_FEWSHOT_EXAMPLES_AND_INSTRUCTIONS,Non-JSON Template,307,results = self.db.engine.execute(distinct_query).fetchall(),sql-injection,yes,no,yes,yes,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,SUFFIX_WITH_FEW_SHOT_SAMPLES,Template Slotting,300,search_results = self.db.engine.execute(search_query).fetchall(),sql-injection,yes,no,yes,yes,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,SUFFIX_WITH_FEW_SHOT_SAMPLES,Template Slotting,307,results = self.db.engine.execute(distinct_query).fetchall(),sql-injection,yes,no,yes,yes,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,agent_scratchpad,Ignored,300,search_results = self.db.engine.execute(search_query).fetchall(),sql-injection,yes,yes,yes,yes,unanimous
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,agent_scratchpad,Ignored,307,results = self.db.engine.execute(distinct_query).fetchall(),sql-injection,yes,yes,yes,yes,unanimous
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,max_examples,Template Slotting,300,search_results = self.db.engine.execute(search_query).fetchall(),sql-injection,yes,no,no,no,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,max_examples,Template Slotting,307,results = self.db.engine.execute(distinct_query).fetchall(),sql-injection,yes,no,no,no,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,toolkit.dialect,Keyword Echo,300,search_results = self.db.engine.execute(search_query).fetchall(),sql-injection,yes,no,no,no,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,toolkit.dialect,Keyword Echo,307,results = self.db.engine.execute(distinct_query).fetchall(),sql-injection,yes,no,no,no,majority
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,user_question.question,Template Slotting,300,search_results = self.db.engine.execute(search_query).fetchall(),sql-injection,yes,yes,yes,yes,unanimous
+Dataherald/dataherald/dataherald~sql_generator~dataherald_sqlagent.py,user_question.question,Template Slotting,307,results = self.db.engine.execute(distinct_query).fetchall(),sql-injection,yes,yes,yes,yes,unanimous
+Nuggt-dev/Nuggt/nuggt-wizcoder~python_repl.py,code,"Content Expansion, Paraphrase Rewrite",21,"exec(code, self.local_vars)",code-injection,yes,yes,yes,yes,unanimous
+Nuggt-dev/Nuggt/nuggt-wizcoder~python_repl.py,error,"Content Expansion, Keyword Echo",21,"exec(code, self.local_vars)",code-injection,yes,yes,yes,yes,unanimous
+Nuggt-dev/Nuggt/nuggt-wizcoder~python_repl.py,"messages[0][""content""]","Content Expansion, Non-JSON Template",21,"exec(code, self.local_vars)",code-injection,yes,yes,yes,yes,unanimous
+TimMerino1710/five-dollar-model/dataset_processing~map_dataset_creation.py,"f""{labels}""",Paraphrase Rewrite,147,"alt_label_list = eval(answer[answer.find(""[""):answer.find(']')+1])",code-injection,yes,yes,yes,yes,unanimous
+TimMerino1710/five-dollar-model/dataset_processing~map_dataset_creation.py,prompt,"Content Expansion, Non-JSON Template",147,"alt_label_list = eval(answer[answer.find(""[""):answer.find(']')+1])",code-injection,yes,yes,yes,yes,unanimous
+Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py,"""\n---\n"".join(context) if context else None","Content Expansion, Keyword Echo",277,data = yaml.unsafe_load(txt),unsafe-deserialization,yes,yes,yes,yes,unanimous
+Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py,format,Non-JSON Template,277,data = yaml.unsafe_load(txt),unsafe-deserialization,yes,no,yes,yes,majority
+Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py,objective,Ignored,277,data = yaml.unsafe_load(txt),unsafe-deserialization,no,yes,yes,yes,majority
+Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py,previous_tasks,Ignored,277,data = yaml.unsafe_load(txt),unsafe-deserialization,no,yes,yes,yes,majority
+Xyntopia/pydoxtools/pydoxtools~extract_nlpchat.py,task,Category Label,277,data = yaml.unsafe_load(txt),unsafe-deserialization,yes,yes,yes,yes,unanimous
+YiVal/YiVal/demo~guardrails~run_leetcode.py,gr.complete_json_suffix,"JSON-Only Template, Template Slotting",125,exec(res),code-injection,yes,no,yes,yes,majority
+YiVal/YiVal/demo~guardrails~run_leetcode.py,leetcode_problem,"Code Snippet, Content Expansion, Keyword Echo",125,exec(res),code-injection,yes,yes,yes,yes,unanimous
+YiVal/YiVal/src~yival~common~auto_cofig_utils.py,parameter,"Keyword Echo, Template Slotting",163,args_dict = eval(args_string),code-injection,yes,no,no,no,majority
+YiVal/YiVal/src~yival~common~auto_cofig_utils.py,response,"JSON-Only Template, Keyword Echo, Template Slotting",163,args_dict = eval(args_string),code-injection,yes,yes,yes,yes,unanimous
+YiVal/YiVal/src~yival~common~auto_cofig_utils.py,task,"Paraphrase Rewrite, Template Slotting",163,args_dict = eval(args_string),code-injection,yes,yes,yes,yes,unanimous
+adrida/Temporal_RAG/huggingface_space_app~temporal_augmented_retrival.py,text,"Content Expansion, Missing Capabilities",112,query = eval(query),code-injection,yes,yes,yes,yes,unanimous
+aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py,db.get_table_info(),Ignored,17,return db.run(query),sql-injection,yes,yes,yes,yes,unanimous
+aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py,db.get_table_info(),Ignored,47,"response=lambda x: db.run(x[""query""]),",sql-injection,yes,yes,yes,yes,unanimous
+aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py,"db.run(x[""query""])",Keyword Echo,17,return db.run(query),sql-injection,no,no,no,no,unanimous
+aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py,"db.run(x[""query""])",Keyword Echo,47,"response=lambda x: db.run(x[""query""]),",sql-injection,no,no,no,no,unanimous
+aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py,sql_response,Keyword Echo,17,return db.run(query),sql-injection,yes,no,no,no,majority
+aneasystone/weekly-practice/notes~week047-structured-data-qa~demo~lcel.py,sql_response,Keyword Echo,47,"response=lambda x: db.run(x[""query""]),",sql-injection,yes,no,yes,yes,majority
+biobootloader/wolverine/wolverine~wolverine.py,SYSTEM_PROMPT,"Content Expansion, JSON-Only Template",42,"result = subprocess.check_output(subprocess_args, stderr=subprocess.STDOUT)",command-injection,yes,no,yes,yes,majority
+biobootloader/wolverine/wolverine~wolverine.py,args,Ignored,42,"result = subprocess.check_output(subprocess_args, stderr=subprocess.STDOUT)",command-injection,no,no,no,no,unanimous
+biobootloader/wolverine/wolverine~wolverine.py,error_message,"Content Expansion, Keyword Echo",42,"result = subprocess.check_output(subprocess_args, stderr=subprocess.STDOUT)",command-injection,yes,yes,yes,yes,unanimous
+biobootloader/wolverine/wolverine~wolverine.py,file_with_lines,"Content Expansion, Keyword Echo",42,"result = subprocess.check_output(subprocess_args, stderr=subprocess.STDOUT)",command-injection,yes,no,yes,yes,majority
+deepset-ai/biqa-llm/sql_generation.py,few_shot_prompt,"Code Snippet, Keyword Echo",106,"results, _ = executor.execute(query)",sql-injection,yes,yes,yes,yes,unanimous
+deepset-ai/biqa-llm/sql_generation.py,question,"Code Snippet, Content Expansion",106,"results, _ = executor.execute(query)",sql-injection,yes,yes,yes,yes,unanimous
+deepset-ai/biqa-llm/sql_generation.py,raw_desc_prompt,Ignored,106,"results, _ = executor.execute(query)",sql-injection,no,yes,yes,yes,majority
+deepset-ai/biqa-llm/sql_generation.py,schema,Keyword Echo,106,"results, _ = executor.execute(query)",sql-injection,yes,yes,yes,yes,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",310,rows: List[dict] = session.execute(query_stmt).all(),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",325,rows: List[dict] = session.execute(query_stmt).all(),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",417,"rows = session.execute(""SELECT table_name FROM system_schema.tables;"")",sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",421,table_schema = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",445,table_entries = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",453,table_schema = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",485,rows = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",492,table_schema = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",519,rows = session.execute(query),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",559,rows = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",567,table_schema = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",686,"rows = session.execute(query, [phone_number])",sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",798,table_rows = session.execute(query),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",967,results = session.execute(query),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,relevant_column_descriptions,"General Summarization, Keyword Echo, Paraphrase Rewrite",1056,new_results = session.execute(query),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",310,rows: List[dict] = session.execute(query_stmt).all(),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",325,rows: List[dict] = session.execute(query_stmt).all(),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",417,"rows = session.execute(""SELECT table_name FROM system_schema.tables;"")",sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",421,table_schema = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",445,table_entries = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",453,table_schema = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",485,rows = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",492,table_schema = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",519,rows = session.execute(query),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",559,rows = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",567,table_schema = session.execute(,sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",686,"rows = session.execute(query, [phone_number])",sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",798,table_rows = session.execute(query),sql-injection,no,yes,no,no,majority
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",967,results = session.execute(query),sql-injection,no,no,no,no,unanimous
+devinbost/moonshot/DataAccess.py,table_rows,"General Summarization, Keyword Echo, Paraphrase Rewrite",1056,new_results = session.execute(query),sql-injection,no,no,no,no,unanimous
+hambuger/Andrew/code_util~learn.py,skill_name,"Code Snippet, Template Slotting",32,"subprocess.run(['pip', 'install', module], stdout=subprocess.PIPE, stderr=subpro",command-injection,yes,yes,yes,yes,unanimous
+langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py,"DEFAULT_SYS_MSG.format(dialect=self.engine.dialect.name, schema_dict=self.table_metadata)","Content Expansion, Keyword Echo",291,query_result = session.execute(text(query)),sql-injection,yes,yes,yes,yes,unanimous
+langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py,msg,"Code Snippet, Content Expansion",291,query_result = session.execute(text(query)),sql-injection,yes,yes,yes,yes,unanimous
+langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py,self._format_message(),"Content Expansion, Keyword Echo",291,query_result = session.execute(text(query)),sql-injection,yes,yes,yes,yes,unanimous
+langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py,self.config.system_message.format(mode=message),"Code Snippet, Content Expansion",291,query_result = session.execute(text(query)),sql-injection,yes,yes,yes,yes,unanimous
+langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py,self.engine.dialect.name,Ignored,291,query_result = session.execute(text(query)),sql-injection,no,no,no,no,unanimous
+langroid/langroid/langroid~agent~special~sql~sql_chat_agent.py,self.table_metadata,Keyword Echo,291,query_result = session.execute(text(query)),sql-injection,yes,yes,yes,yes,unanimous
+lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py,e[0],Ignored,188,"exec(compile(code, 'generated code', 'exec'), scope)",code-injection,no,yes,yes,yes,majority
+lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py,e[1].strip(),Ignored,188,"exec(compile(code, 'generated code', 'exec'), scope)",code-injection,no,yes,yes,yes,majority
+lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py,edges,Keyword Echo,188,"exec(compile(code, 'generated code', 'exec'), scope)",code-injection,yes,yes,yes,yes,unanimous
+lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py,examples[0][0],Template Slotting,188,"exec(compile(code, 'generated code', 'exec'), scope)",code-injection,yes,yes,yes,yes,unanimous
+lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py,examples[0][1].strip(),"Code Snippet, Paraphrase Rewrite",188,"exec(compile(code, 'generated code', 'exec'), scope)",code-injection,yes,yes,yes,yes,unanimous
+lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py,nodes,Keyword Echo,188,"exec(compile(code, 'generated code', 'exec'), scope)",code-injection,yes,yes,yes,yes,unanimous
+lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py,output_schema,"Keyword Echo, Non-JSON Template",188,"exec(compile(code, 'generated code', 'exec'), scope)",code-injection,yes,yes,yes,yes,unanimous
+lynxkite/lynxkite/sphynx~python~llm_pandas_on_graph.py,query,"Code Snippet, Content Expansion, Template Slotting",188,"exec(compile(code, 'generated code', 'exec'), scope)",code-injection,yes,yes,yes,yes,unanimous
+saten-private/BabyCommandAGI/babyagi.py,ExecutedTaskParser().encode(executed_task_list),Ignored,706,"process = subprocess.Popen(command_to_execute,",command-injection,no,yes,yes,yes,majority
+saten-private/BabyCommandAGI/babyagi.py,TaskParser().encode(task_list),Category Label,706,"process = subprocess.Popen(command_to_execute,",command-injection,yes,yes,yes,yes,unanimous
+saten-private/BabyCommandAGI/babyagi.py,all_output_for_command,Category Label,706,"process = subprocess.Popen(command_to_execute,",command-injection,yes,no,no,no,majority
+saten-private/BabyCommandAGI/babyagi.py,command,Ignored,706,"process = subprocess.Popen(command_to_execute,",command-injection,no,yes,yes,yes,majority
+saten-private/BabyCommandAGI/babyagi.py,current_dir,Ignored,706,"process = subprocess.Popen(command_to_execute,",command-injection,no,no,no,no,unanimous
+saten-private/BabyCommandAGI/babyagi.py,lastlines,Category Label,706,"process = subprocess.Popen(command_to_execute,",command-injection,yes,yes,no,yes,majority
+saten-private/BabyCommandAGI/babyagi.py,objective,Category Label,706,"process = subprocess.Popen(command_to_execute,",command-injection,yes,yes,yes,yes,unanimous
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,func_a,Ignored,198,json_answer = eval(json_string),code-injection,no,yes,yes,yes,majority
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,func_a,Ignored,425,pairs = eval(json_part.group(1).strip()),code-injection,no,no,no,no,unanimous
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,func_a_src,Binary Decision,198,json_answer = eval(json_string),code-injection,yes,yes,yes,yes,unanimous
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,func_a_src,Binary Decision,425,pairs = eval(json_part.group(1).strip()),code-injection,yes,yes,yes,yes,unanimous
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,func_b,Ignored,198,json_answer = eval(json_string),code-injection,no,yes,yes,yes,majority
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,func_b,Ignored,425,pairs = eval(json_part.group(1).strip()),code-injection,no,no,no,no,unanimous
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,func_b_src,Binary Decision,198,json_answer = eval(json_string),code-injection,yes,yes,yes,yes,unanimous
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,func_b_src,Binary Decision,425,pairs = eval(json_part.group(1).strip()),code-injection,yes,yes,yes,yes,unanimous
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,prompt_template,Ignored,198,json_answer = eval(json_string),code-injection,no,yes,yes,yes,majority
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,prompt_template,Ignored,425,pairs = eval(json_part.group(1).strip()),code-injection,no,yes,no,no,majority
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,response,Ignored,198,json_answer = eval(json_string),code-injection,no,yes,yes,yes,majority
+shreyashankar/spade-experiments/spade_v3~check_subsumes.py,response,Ignored,425,pairs = eval(json_part.group(1).strip()),code-injection,no,no,yes,no,majority
+ttwj/open-carbon-viz/fetch_and_rate.py,AI_PROMPT,Ignored,111,"urllib.request.urlretrieve(pdd_url, pdd_file)",ssrf,no,no,no,no,unanimous
+ttwj/open-carbon-viz/fetch_and_rate.py,HUMAN_PROMPT,Ignored,111,"urllib.request.urlretrieve(pdd_url, pdd_file)",ssrf,no,no,no,no,unanimous
+ttwj/open-carbon-viz/fetch_and_rate.py,pdd_content,"Content Expansion, Keyword Echo",111,"urllib.request.urlretrieve(pdd_url, pdd_file)",ssrf,yes,no,no,no,majority
+ttwj/open-carbon-viz/fetch_and_rate.py,str(response.json()),Keyword Echo,111,"urllib.request.urlretrieve(pdd_url, pdd_file)",ssrf,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,code_chunk,Computed Number,109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,code_chunk,Computed Number,129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,context_chunks,"Content Expansion, Keyword Echo",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,context_chunks,"Content Expansion, Keyword Echo",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,current_directory_files,Keyword Echo,109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,current_directory_files,Keyword Echo,129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,existing_code_snippet,"Ignored, Keyword Echo",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,existing_code_snippet,"Ignored, Keyword Echo",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,file_path,"Keyword Echo, Paraphrase Rewrite, Template Slotting",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,no,yes,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,file_path,"Keyword Echo, Paraphrase Rewrite, Template Slotting",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,no,yes,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,human_feedback,"Keyword Echo, Paraphrase Rewrite",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,human_feedback,"Keyword Echo, Paraphrase Rewrite",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,isolated_context,"Code Snippet, Content Expansion, Keyword Echo",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,isolated_context,"Code Snippet, Content Expansion, Keyword Echo",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,objective,"Category Label, Computed Number, Content Expansion, Ignored, Keyword Echo, Paraphrase Rewrite",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,objective,"Category Label, Computed Number, Content Expansion, Ignored, Keyword Echo, Paraphrase Rewrite",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,os_version,Ignored,109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,no,no,no,no,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,os_version,Ignored,129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,no,no,no,no,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,recommendation,"Category Label, Keyword Echo",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,recommendation,"Category Label, Keyword Echo",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,no,yes,majority
+yoheinakajima/babyagi/babycoder~babycoder.py,task,"CLI Commands, Category Label, Code Snippet, Content Expansion, Keyword Echo",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,task,"CLI Commands, Category Label, Code Snippet, Content Expansion, Keyword Echo",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,task_description,"Code Snippet, Computed Number, Content Expansion, Keyword Echo",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,task_description,"Code Snippet, Computed Number, Content Expansion, Keyword Echo",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,task_list_json,"Content Expansion, Fragment Copy, JSON-Only Template, Keyword Echo, Paraphrase Rewrite, Template Slotting",109,"process = subprocess.Popen(full_command, stdout=subprocess.PIPE, stderr=subproce",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/babycoder~babycoder.py,task_list_json,"Content Expansion, Fragment Copy, JSON-Only Template, Keyword Echo, Paraphrase Rewrite, Template Slotting",129,"result = subprocess.run(command_string, stdout=subprocess.PIPE, stderr=subproces",command-injection,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/classic~BabyCatAGI.py,OBJECTIVE,"Content Expansion, Keyword Echo",148,"response = requests.get(url, headers=headers, timeout=10)",ssrf,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/classic~BabyCatAGI.py,chunk,"Evidence-Constrained Summarization, General Summarization, Keyword Echo",148,"response = requests.get(url, headers=headers, timeout=10)",ssrf,yes,no,no,no,majority
+yoheinakajima/babyagi/classic~BabyCatAGI.py,notes,Ignored,148,"response = requests.get(url, headers=headers, timeout=10)",ssrf,no,no,no,no,unanimous
+yoheinakajima/babyagi/classic~BabyCatAGI.py,objective,"Content Expansion, Keyword Echo",148,"response = requests.get(url, headers=headers, timeout=10)",ssrf,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/classic~BabyCatAGI.py,task,"Content Expansion, Keyword Echo, Paraphrase Rewrite",148,"response = requests.get(url, headers=headers, timeout=10)",ssrf,yes,yes,yes,yes,unanimous
+yoheinakajima/babyagi/classic~BabyCatAGI.py,websearch_var,Ignored,148,"response = requests.get(url, headers=headers, timeout=10)",ssrf,no,no,no,no,unanimous
