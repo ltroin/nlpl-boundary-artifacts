@@ -1,0 +1,22 @@
+You are a security researcher. Given the following Python source code, the prompt template used to call an LLM, and the actual LLM output, determine whether the placeholder can be exploited.
+
+[SOURCE CODE]
+{source_code}
+
+[PROMPT TEMPLATE]
+{prompt}
+
+[LLM OUTPUT]
+{output}
+
+[PLACEHOLDER]
+{placeholder_name} = {placeholder_value}
+
+[DANGEROUS SINK]
+Line {sink_line}: {sink_code} (type: {vuln_type})
+
+Question: If an attacker fully controls the value of placeholder "{placeholder_name}", can attacker-influenced content propagate through the LLM's response and ultimately reach or influence the dangerous sink at line {sink_line}?
+
+
+First, think step by step and write your reasoning in a few sentences.
+Then, on the last line, give your final answer as exactly "Answer: yes" or "Answer: no".
